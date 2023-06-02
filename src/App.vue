@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="kletka">
     <Table />
   </div>
 </template>
@@ -13,4 +13,12 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+.kletka {
+  background: linear-gradient(#bbb, transparent 1px),
+    linear-gradient(90deg, #bbb, transparent 1px);
+  background-size: 20px 20px;
+  background-position: center center;
+  min-height: 100vh;
+}
+</style>
